@@ -6,7 +6,7 @@ import Button from './Button'
 
 const CarDeal = () => {
   return (
-    <section className='flex flex-col sm:flex-row'>
+    <section className='flex flex-col sm:flex-row sm:my-10 my-10'>
      <div className={`flex flex-col ${layout.sectionInfo}`}>
      layout.sectionInfo
       <h2 className={`${styles.heading2}`}>Find a better Card deal <br className='sm:block hidden'/> in few easy steps</h2>
