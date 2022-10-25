@@ -150,6 +150,52 @@ export const footerLinks = [
         name: "Become a Partner",
         link: "https://www.hoobank.com/become-a-partner/",
       },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      {
+        name: "",
+        link: "",
+      },
+      
     ],
   },
 ];

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style'
 import { Navbar,Billing,Business,Button,CarDeal,Clients,CTA,FeedbackCard,Footer,GetStarted,Hero,NavBar,Stats,Testimonials} from './components'
-
+//className={`flex flex-col justify-between w-full items-center flex-wrap mt-10 md:flex-row  `}
 
 function App() {
   return (
@@ -29,9 +29,16 @@ function App() {
     <Testimonials/>
     <Clients/>
     <CTA/>
-    <Footer/>
     </div>
    </div>
+
+  
+
+   <div className={`bg-lightDark h-[880px] md:flex-row sm:row md:h-[418px] sm:h-[350px] ${styles.flexStart} ${styles.paddingX}`}>
+    <div className={` ${styles.boxWidth}`}>
+      <Footer />
+    </div>
+  </div>
 
   </div>
   )
