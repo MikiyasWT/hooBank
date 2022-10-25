@@ -36,11 +36,14 @@ function Footer() {
          ))
       }
 
-      <hr className='mt-5 left-20 w-full bg-black-gradient'/>
       
-      <div className='w-full h-[60px] flex flex-col-reverse sm:justify-between sm:flex-row '>
+      <div className='w-full'>
+      <hr className='mt-5 left-20 w-full bg-black-gradient'/>
+      </div>
+      
+      <div className='w-full h-[100px] flex flex-col-reverse sm:justify-between sm:flex-row '>
          <div className='mx-10 sm:ml-5 justify-center'>
-            <p className='pt-2 font-poppins text-[18px] text-dimWhite'>
+            <p className='pt-2 sm:pt-5 font-poppins text-[18px] text-dimWhite'>
                   Copyright @ 2022 HooBank All rights reserverd
             </p>
          </div> 
@@ -48,7 +51,7 @@ function Footer() {
            
          {
          socialMedia.map((media,index) => (
-            <div className='flex flex-row float-right'>
+            <div className='flex flex-row float-right sm:mb-10'>
                <a href={media.link}><img key={media.id} className="cursor-pointer m-2 " src={media.icon} alt="media icon"/></a>
             </div>
             

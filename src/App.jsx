@@ -34,7 +34,7 @@ function App() {
 
   
 
-   <div className={`bg-lightDark h-[880px] md:flex-row sm:row md:h-[418px] sm:h-[350px] ${styles.flexStart} ${styles.paddingX}`}>
+   <div className={`bg-lightDark h-[500px] md:flex-row sm:row md:h-[418px] sm:h-[300px] ${styles.flexStart} ${styles.paddingX}`}>
     <div className={` ${styles.boxWidth}`}>
       <Footer />
     </div>
